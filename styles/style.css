@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins&display=swap');
+*{
+  margin: 0;
+  
+  font-family: 'Afacad', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  background: linear-gradient(pink 60%, transparent 40%);
+}
+#topSide{
+  width: 100%;
+}
+#info{
+  margin: 5%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  color: #fff;
+}
+#info i{
+  padding: 15px;
+  
+  background-color: #FFFFFF3D;
+  border-radius: 50%;
+}
+.side{
+  font-size: small
+}
+#extractInfo{
+  padding: 10px;
+  
+  width: 85%;
+  
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+.side{
+  margin: 10px;
+}
+h3,h2{
+  color: #7A7A7A;
+  }
