@@ -15,7 +15,7 @@ header{
 #topSide{
   width: 100%;
 }
-#info{
+#userInfo{
   margin: 5%;
   
   display: flex;
@@ -24,7 +24,7 @@ header{
   
   color: #fff;
 }
-#info i{
+#userInfo i{
   padding: 15px;
   
   background-color: #FFFFFF3D;
@@ -50,4 +50,60 @@ header{
 }
 h3,h2{
   color: #7A7A7A;
-  }
+}
+#update{
+  margin: 5%;
+  
+  display: flex;
+  justify-content: center;
+}
+#container{
+  margin: 5%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#iContainer{
+  padding: 10px;
+  
+  width: 25px;
+  height: 25px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  color: #fff;
+  background-color: pink;
+  border-radius: 5px;
+}
+main{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+main h2 {
+  margin-bottom: 10px;
+}
+#mov{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  border-bottom: 2px solid #ccc;
+}
+#mov p{
+  margin-right: 20px;
+}
+#info {
+  margin-left: 20px;
+}
+#info h6{
+  font-size: small;
+  color: #7A7A7A;
+}
+#info h3{
+  color: black;
+}
