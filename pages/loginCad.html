@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../styles/loginCad.css">
+</head>
+
+<body>
+  <div id="title">
+    <h1 id="loginCad">Login</h1>
+  </div>
+  <div id="inputContainer">
+    <div id="label">
+      <label for="">Email</label>
+    </div>
+    <div id="inputLine">
+      <i class="fa-solid fa-user"></i>
+      <input type="email" placeholder="exemplo@exemplo.com" id ="email">
+    </div>
+    <div id="label">
+      <label for="">Senha</label>
+    </div>
+    <div id="inputLinePass">
+      <div id="separar">
+        <i class="fa-solid fa-lock"></i>
+        <input type="password" placeholder="Ex-12345" id="senha">
+      </div>
+      <i class="fa-solid fa-eye-slash" id="eye" onclick="change.toggle()"></i>
+    </div>
+    <a href="recuperarSenha.html">Esqueceu sua senha?</a>
+  </div>
+  <div id="submit">
+    <button id="button">Logar</button>
+    <p id="toggle">Ainda não tem uma conta?<span onclick="change.change()">Clique aqui.</span></p>
+  </div>
+  <script src="../scripts/loginCad.js"></script>
+</body>
+
+</html>
